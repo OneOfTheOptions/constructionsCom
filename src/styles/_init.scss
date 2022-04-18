@@ -10,7 +10,7 @@ html {
 
 .page {
   height: 100%;
-  font-family: var(--font-family, sans-serif);
+  font-family: $fontG;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -104,4 +104,8 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+body{
+  font-family: $fontG;
 }

@@ -1,9 +1,12 @@
-@use 'global';
 @use 'vendors/null';
-@import "vars";
-@import "mixins";
+@import 'vars';
+@import 'mixins';
 @import 'fonts';
-@import "config";
+@import 'init';
+@import 'global';
+
+
+
 
 //@import "~bootstrap/scss/bootstrap";
 
