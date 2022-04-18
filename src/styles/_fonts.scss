@@ -1,16 +1,4 @@
-@font-face {
-  font-family: generalFont;
-  src: url("../fonts/UbuntuRegular.woff2");
-}
-@font-face {
-  font-family: generalFontBold;
-  src: url("../fonts/UbuntuBold.woff2");
-}
-@font-face {
-  font-family: secondaryFont;
-  src: url("../fonts/LatoBlack.woff2");
-}
-@font-face {
-  font-family: secondaryFontBold;
-  src: url("../fonts/LatoBold.woff2");
-}
+@include font-face("Ubuntu", "../fonts/UbuntuRegular", 400, normal);
+@include font-face("Ubuntu", "../fonts/UbuntuBold", 700, normal);
+@include font-face("Lato", "../fonts/LatoBold", 700, normal);
+@include font-face("Lato", "../fonts/LatoBlack", 900, normal);
