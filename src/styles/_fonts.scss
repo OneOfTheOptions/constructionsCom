@@ -1,4 +1,16 @@
 @font-face {
   font-family: generalFont;
-  src: url("../fonts/Prompt-Regular.ttf");
+  src: url("../fonts/UbuntuRegular.woff2");
+}
+@font-face {
+  font-family: generalFontBold;
+  src: url("../fonts/UbuntuBold.woff2");
+}
+@font-face {
+  font-family: secondaryFont;
+  src: url("../fonts/LatoBlack.woff2");
+}
+@font-face {
+  font-family: secondaryFontBold;
+  src: url("../fonts/LatoBold.woff2");
 }
