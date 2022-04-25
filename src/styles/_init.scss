@@ -10,7 +10,6 @@ html {
 
 .page {
   height: 100%;
-  font-family: $fontG;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -80,8 +79,8 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 0 var(--container-offset);
-  max-width: var(--container-width);
+  //padding: 0 $container-offset;
+  width: min(100% - 2rem, var(--min-width));
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
@@ -107,5 +106,5 @@ a {
 }
 
 body{
-  font-family: $fontG;
+  font-family: $fontGeneral;
 }

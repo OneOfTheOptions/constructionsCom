@@ -1,4 +1,5 @@
 import './styles/index.scss'
+import './pug/pages/index.pug'
 // import $ from "jquery";
 // import 'bootstrap';
 

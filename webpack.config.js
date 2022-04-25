@@ -11,7 +11,7 @@ module.exports = {
     mode: mode,
     entry: {
         scripts: './src/index.js',
-        secondJS: './src/secondJS.js',
+        //secondJS: './src/secondJS.js',
     },
     output: {
         filename: '[name].[contenthash].js',
@@ -19,11 +19,13 @@ module.exports = {
         clean: true,
     },
     devServer: {
+        watchFiles: ['./src/*.pug'],
+        hot: true,
         open: true,
         static: {
             directory: './src',
             watch: true
-        }
+        },
     },
     devtool: 'source-map',
     optimization: {
@@ -36,7 +38,7 @@ module.exports = {
             filename: '[name].[contenthash].css'
         }),
         new HtmlWebpackPlugin({
-            template: "./src/pug/index.pug"
+            template: "./src/pug/pages/index.pug"
         })],
     module: {
         rules: [
@@ -67,6 +69,7 @@ module.exports = {
                     "sass-loader",
                 ],
             },
+
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
