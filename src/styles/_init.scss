@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
+  background: white;
 }
+
 
 *,
 *::before,
@@ -79,9 +81,19 @@ a {
 
 .container {
   margin: 0 auto;
-  //padding: 0 $container-offset;
+  max-width: 1260px;
   width: min(100% - 2rem, var(--min-width));
+  //or// padding: 0 $container-offset;
+  padding: 0 13px;
+
 }
+/*.wrapper {
+  min-height: 100%;
+  width: min(100% - 2rem, var(--min-width));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}*/
 
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
@@ -106,5 +118,38 @@ a {
 }
 
 body{
+  margin: 0;
   font-family: $fontGeneral;
 }
+
+
+///////////////////SCROLL
+/* убрать скролл
+::-webkit-scrollbar {
+  width: 0;
+}
+*/
+
+#element::-webkit-scrollbar {
+  width: 10px;
+}
+
+#element::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+}
+
+#element::-webkit-scrollbar-thumb {
+  background-color: #f2bf93;
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .25) 25%,
+          transparent 25%,
+          transparent 50%,
+          rgba(255, 255, 255, .25) 50%,
+          rgba(255, 255, 255, .25) 75%,
+          transparent 75%,
+          transparent);
+}
+
+
+///////////////////CONTENT
+

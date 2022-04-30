@@ -1,10 +1,14 @@
 .header{
+  padding-top: 24px;
+  padding-bottom: 20px;
+  &__main {
+    background-color: var(--color-white);
+  }
   &__container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    max-width: 1235px;
-    min-height: 92px;
+    align-items: center;
+    max-width: 1260px;
   }
 }
 
@@ -13,18 +17,23 @@
 .nav{
   &__list{
     display: flex;
+    align-content: center;
     min-width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: -111px;
+    padding-bottom: 2px;
   }
   &__item{
     &:not(:last-child){
-      margin-right: 40px;
+      margin-right: 41px;
     }
   }
   &__item-link{
-    color: var(--color-gray);
-    font-weight: 400;
+    font-family: $fontGeneral;
+    font-style: normal;
+    color: var(--color-grey);
+    font-weight: 700;
     font-size: 16px;
     line-height: 160%;
   }
@@ -36,17 +45,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 4px;
   &__link{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
 }
 .contacts-link{
-  padding-left: 60px;
+  padding-left: 51px;
   background-position: left center;
   background-size: 40px 40px;
   background-repeat: no-repeat;
+  &:not(:last-child){
+    margin-right: 38px;
+  }
 
   &__caption{
     color: var(--color-grey);
@@ -55,15 +69,15 @@
     line-height: 150%;
   }
   &__value{
-    color: #1E212C;
+    color: var(--color-ebony);
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
   }
   &--call{
-  background-image: url("../img/svg/mobileSVG.svg");
+    background-image: url("../img/svg/mobileSVG.svg");
   }
   &--mail{
-
+    background-image: url("../img/svg/mailSVG.svg");
   }
 }
