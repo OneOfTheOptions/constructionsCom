@@ -1,0 +1,15 @@
+mixin aboutSection
+    section.about-section.section-offset
+        .container
+            h2.title.title--center.
+                We are Createx Construction Bureau
+            p.descr.descr--center.
+                We are rightfully considered to be the best construction company in the USA.
+            .video-block.video-block__wrap
+                button.btn-reset.video-block__play(aria-label= "Play video")
+                    svg
+                        use(xlink:href="#video_play")
+                button.btn-reset.video-block__mute(aria-label= "Mute video")
+                    svg
+                        use(xlink:href="#video_mute")
+                video.video-block__content(src="../../video/about_video.mp4" muted loop preload="metadata")
