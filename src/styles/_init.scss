@@ -167,6 +167,8 @@ body{
 }
 .descr{
   margin: 0;
+  padding-bottom: 60px;
+  //margin: 0 0 60px 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
@@ -183,5 +185,45 @@ body{
 }
 
 .video-block__wrap{
-  margin-top: 61px;
+}
+
+.subtitle{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+
+  color: var(--color-darkStorm);
+}
+
+.main-list{
+  &__item{
+    width: 285px;
+    padding-top: 50px;
+    text-align: center;
+    background-position: top center;
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+  }
+  &__subtitle{
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+
+    color: var(--color-ebony);
+  }
+  &__descr{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+
+    color: var(--color-storm);
+  }
+
 }

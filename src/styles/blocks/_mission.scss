@@ -1,0 +1,54 @@
+.mission {
+    background-color: var(--color-white);
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 188px;
+    }
+
+}
+
+
+.main-list{
+    &__subtitle{
+        margin: 0;
+        padding-bottom: 8px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+
+        color: var(--color-ebony);
+    }
+    &__descr{
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+
+        text-align: center;
+
+        color: var(--color-storm);
+    }
+    &__item{
+        padding-top: 50px;
+        text-align: center;
+        background-position: top center;
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+
+        &--quality{
+            background-image: url("../img/quality.svg");
+        }
+
+        &--safety{
+            background-image: url("../img/safety.svg");
+        }
+
+        &--comfort{
+            background-image: url("../img/comfort.svg");
+        }
+    }
+}
+
