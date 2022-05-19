@@ -1,6 +1,8 @@
 .mission {
     background-color: var(--color-white);
     &__list{
+        --mission-gap: 94px;
+
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: calc(var(--mission-gap)*2);
@@ -11,6 +13,7 @@
 
 .main-list{
     display: flex;
+    margin-bottom: 60px;
 
     &__subtitle{
         margin: 0;
@@ -67,6 +70,42 @@
         &--comfort{
             background-image: url("../img/comfort.svg");
         }
+    }
+}
+
+.know-form {
+    position: relative;
+    top: 108px;
+    padding: 0 60px 48px;
+    box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    background-color: var(--color-white);
+    &__title{
+        margin-bottom: 33px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 150%;
+        text-align: center;
+
+        color: var(--color-darkStorm);
+    }
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        .btn{
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            width: 104px;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__field{
+        margin-right: 24px;
     }
 
 }

@@ -1,0 +1,27 @@
+.form-field{
+  display: flex;
+  flex-direction: column;
+
+  &__caption{
+    padding-bottom: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: var(--color-grey);
+  }
+  &__input{
+    Width: 260px;
+    Height: 44px;
+    background: #F4F5F7;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+  }
+  &--big{
+    flex-grow: 1;
+    .form-field__input{
+    width: 100%;
+    }
+  }
+}
