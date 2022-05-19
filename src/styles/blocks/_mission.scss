@@ -74,6 +74,7 @@
 }
 
 .know-form {
+    max-width: 1230px;
     position: relative;
     top: 108px;
     padding: 0 60px 48px;
@@ -92,7 +93,6 @@
     }
     &__content {
         display: flex;
-        justify-content: center;
         align-items: flex-end;
         .btn{
             font-size: 14px;
