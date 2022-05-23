@@ -4,4 +4,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  &-list{
+    display: flex;
+    justify-content: center;
+  }
 }
