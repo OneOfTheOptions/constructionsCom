@@ -1,5 +1,5 @@
 mixin ourServices
-    section.ourServices.section-offset
+    section.ourServices-section.section-offset
         .container
             h2.title.title--center.
                 Our services
@@ -7,29 +7,33 @@ mixin ourServices
                 Createx Construction Bureau is a construction giant with a full range of construction services.
             ul.ourServices-list.list-reset
                 li.ourServices-list__item
-                    .ourServices-item
-                        svg(aria-hidden="true").ourServices-item__icon
-                            use(xlink:href="#ourServices_Construction")
-                        h4.ourServices-item__title.
-                            Construction
+                    a(href="#").ourServices-item
+                        .ourServices-item__contet
+                            svg(aria-hidden="true").ourServices-item__icon
+                                use(xlink:href="#ourServices_Construction")
+                            h4.ourServices-item__title.
+                                Construction
                 li.ourServices-list__item
-                    .ourServices-item
-                        svg(aria-hidden="true").ourServices-item__icon
-                            use(xlink:href="#ourServices_Development")
-                        h4.ourServices-item__title.
-                            Project Development
+                    a(href="#").ourServices-item
+                        .ourServices-item__contet
+                            svg(aria-hidden="true").ourServices-item__icon
+                                use(xlink:href="#ourServices_Development")
+                            h4.ourServices-item__title.
+                                Project Development
                 li.ourServices-list__item
-                    .ourServices-item
-                        svg(aria-hidden="true").ourServices-item__icon
-                            use(xlink:href="#ourServices_interiorDesign")
-                        h4.ourServices-item__title.
-                            Interior Design
+                    a(href="#").ourServices-item
+                        .ourServices-item__contet
+                            svg(aria-hidden="true").ourServices-item__icon
+                                use(xlink:href="#ourServices_interiorDesign")
+                            h4.ourServices-item__title.
+                                Interior Design
                 li.ourServices-list__item
-                    .ourServices-item
-                        svg(aria-hidden="true").ourServices-item__icon
-                            use(xlink:href="#ourServices_Repairs")
-                        h4.ourServices-item__title.
-                            Repairs
+                    a(href="#").ourServices-item
+                        .ourServices-item__contet
+                            svg(aria-hidden="true").ourServices-item__icon
+                                use(xlink:href="#ourServices_Repairs")
+                            h4.ourServices-item__title.
+                                Repairs
             .ourServices__about
                 h3.subtitle.
                     Learn more about our services
