@@ -11,7 +11,7 @@ module.exports = {
     mode: mode,
     entry: {
         scripts: './src/index.js',
-        //secondJS: './src/secondJS.js',
+        components: './src/components.js',
     },
     output: {
         filename: '[name].[contenthash].js',

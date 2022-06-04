@@ -1,2 +1,35 @@
 mixin portfolio-section
-    h1.text
+    section.portfolio-section.section-offset
+        .container
+            .portfolio-section__top
+                h2.title.portfolio-section__title.
+                    Browse our selected projects
+                    and learn more about our work
+                .slider-nav.portfolio-section__slider-nav
+                    button.btn-reset.slider-nav__btn.portfolio-section__prev.slider-btn
+                        svg
+                            use(xlink:href="#slider_leftArrow")
+                    button.btn-reset.slider-nav__btn.portfolio-section__next.slider-btn
+                        svg
+                            use(xlink:href="#slider_rightArrow")
+            .portfolio-swiper
+                .swiper
+                    // Additional required wrapper
+                    .swiper-wrapper
+                        // Slides
+                        .swiper-slide Slide 1
+                        .swiper-slide Slide 2
+                        .swiper-slide Slide 3
+                        |     ...
+                    // If we need pagination
+                    .swiper-pagination
+                    // If we need navigation buttons
+                    .swiper-button-prev
+                    .swiper-button-next
+                    // If we need scrollbar
+                    .swiper-scrollbar
+            .portfolio-allWorks
+                h3.subtitle.
+                    Explore all our works
+                button.btn-reset.btn.btn-fill.
+                    View portfolio

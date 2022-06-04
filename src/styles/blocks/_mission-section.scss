@@ -1,7 +1,7 @@
 .mission {
     background-color: var(--color-white);
     &__list{
-        --mission-gap: 94px;
+        --mission-gap: 93px;
 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -12,7 +12,6 @@
 
 
 .main-list{
-    display: flex;
     margin-bottom: 60px;
 
     &__subtitle{

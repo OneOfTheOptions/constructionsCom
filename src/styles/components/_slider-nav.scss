@@ -1,0 +1,36 @@
+.slider-nav{
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+
+  &__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    color: var(--color-grey);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+    svg{
+      display: block;
+      margin: 0;
+      padding: 0;
+
+      width: 18px;
+      height: 11px;
+      color: inherit;
+      fill: currentColor;
+      object-fit: cover;
+    }
+    &:hover{
+      color: var(--color-white);
+      background-color: var(--color-primary);
+    }
+  }
+}
