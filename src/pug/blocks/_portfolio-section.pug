@@ -12,13 +12,40 @@ mixin portfolio-section
                     button.btn-reset.slider-nav__btn.portfolio-section__next.slider-btn
                         svg
                             use(xlink:href="#slider_rightArrow")
-            .swiper
+            .swiper.portfolio-section__items
                 .swiper-wrapper
-                    .swiper-slide Slide 1
-                    .swiper-slide Slide 2
-                    .swiper-slide Slide 3
-            .portfolio-allWorks
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/portfolio-item1.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Red Finger Building
+                                span.portfolio-item__descr.
+                                    Business Centers
+                                .portfolio-item__btn.btn.btn--stroke.
+                                    View Project
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/portfolio-item1.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Cubes Building
+                                span.portfolio-item__descr.
+                                    Business Centers
+                                .portfolio-item__btn.btn.btn--stroke.
+                                    View Project
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/portfolio-item3.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    The Pencil Building
+                                span.portfolio-item__descr.
+                                    Stores & Malls
+                                .portfolio-item__btn.btn.btn--stroke.
+                                    View Project
+            .portfolio-allWorks.subtitleSection
                 h3.subtitle.
                     Explore all our works
-                button.btn-reset.btn.btn-fill.
+                a(href="").btn-reset.btn.btn--fill.
                     View portfolio

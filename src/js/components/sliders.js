@@ -1,22 +1,14 @@
+const bodyStyles = window.getComputedStyle(document.body);
+const gap = parseInt(bodyStyles.getPropertyValue('--grid-gap'));
+
+
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
+    slidesPerView: 3,
+    spaceBetween: gap,
     loop: true,
-
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-    },
-
-    // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
+        nextEl: '.portfolio-section__next',
+        prevEl: '.portfolio-section__prev',
     },
 });
 
