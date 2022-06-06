@@ -1,5 +1,4 @@
 .portfolio-section{
-  padding: 120px 0;
   background-color: var(--color-white);
 
   &__slider-nav{
@@ -91,6 +90,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding-bottom: 120px;
 }
 
