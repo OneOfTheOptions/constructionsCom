@@ -12,4 +12,14 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
+const swiperRecalls = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: gap,
+    loop: true,
+    navigation: {
+        nextEl: '.portfolio-section__next',
+        prevEl: '.portfolio-section__prev',
+    },
+});
+
 
