@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
-const swiperRecalls = new Swiper('.swiper', {
+const swiperRecalls = new Swiper('.swiperRecalls', {
     slidesPerView: 1,
     loop: true,
     navigation: {

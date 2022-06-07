@@ -3,14 +3,31 @@
   background-color: #F4F5F7;
 }
 .recalls{
+  &__content{
+    max-width: 600px;
+  }
   &__items{
     padding-top: 59px;
   }
 }
 
-.recalls__item{
+.recalls-item{
+  &__img{
+    overflow: hidden;
+    border-radius: 100%;
+    width: 72px;
+    height: 72px;
+  }
   &__descr{
-    padding-top: 100px;
+    margin: 0;
+    padding-top: 24px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: var(--color-grey);
   }
 }
 
