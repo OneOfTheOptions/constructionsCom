@@ -1,3 +1,16 @@
 .recalls-section{
+  padding: 91px 0;
   background-color: #F4F5F7;
 }
+.recalls{
+  &__items{
+    padding-top: 59px;
+  }
+}
+
+.recalls__item{
+  &__descr{
+    padding-top: 100px;
+  }
+}
+

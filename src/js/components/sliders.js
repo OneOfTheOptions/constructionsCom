@@ -13,12 +13,11 @@ const swiper = new Swiper('.swiper', {
 });
 
 const swiperRecalls = new Swiper('.swiper', {
-    slidesPerView: 3,
-    spaceBetween: gap,
+    slidesPerView: 1,
     loop: true,
     navigation: {
-        nextEl: '.portfolio-section__next',
-        prevEl: '.portfolio-section__prev',
+        nextEl: '.recalls-section__next',
+        prevEl: '.recalls-section__prev',
     },
 });
 
