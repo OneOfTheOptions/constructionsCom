@@ -1,6 +1,6 @@
 mixin recalls
     section.recalls-section
-        .container
+        .container.recalls-container
             .recalls__content
                 h2.title.
                     What our clients are saying
@@ -19,12 +19,12 @@ mixin recalls
                                     Shawn Edwards
                                 span.recalls-item__author-position.
                                     Position, Company name
-                .slider-nav.recalls-section__slider-nav
-                    button.btn-reset.slider-nav__btn.recalls-section__prev.slider-btn
-                        svg
-                            use(xlink:href="#slider_leftArrow")
-                    button.btn-reset.slider-nav__btn.recalls-section__next.slider-btn
-                        svg
-                            use(xlink:href="#slider_rightArrow")
+                    .slider-nav.recalls-section__slider-nav
+                        button.btn-reset.slider-nav__btn.recalls-section__prev.slider-btn
+                            svg
+                                use(xlink:href="#slider_leftArrow")
+                        button.btn-reset.slider-nav__btn.recalls-section__next.slider-btn
+                            svg
+                                use(xlink:href="#slider_rightArrow")
             .recalls-image
                 img(src="../../img/recalls_image.jpg" aria-hidden="true")

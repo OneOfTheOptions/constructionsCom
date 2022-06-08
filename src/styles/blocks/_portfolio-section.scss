@@ -12,6 +12,10 @@
   &__items{
    margin: 0 -5px 0 -5px;
    padding: 0 5px 80px 5px;
+
+    .swiper-wrapper{
+      max-height: 440px;
+    }
   }
 }
 .portfolio-section__top{
@@ -21,9 +25,7 @@
 }
 .swiper{
 }
-.swiper-wrapper{
-  height: 440px;
-}
+
 .swiper-slide{
 
 }
