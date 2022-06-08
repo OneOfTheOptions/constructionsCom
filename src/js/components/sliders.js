@@ -14,6 +14,7 @@ const swiper = new Swiper('.swiper', {
 
 const swiperRecalls = new Swiper('.swiperRecalls', {
     slidesPerView: 1,
+    spaceBetween: gap,
     loop: true,
     navigation: {
         nextEl: '.recalls-section__next',
