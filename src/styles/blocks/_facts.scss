@@ -1,0 +1,27 @@
+.facts{
+  padding-top: 180px;
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    max-width: 736px;
+    gap: 48px;
+  }
+}
+
+.facts-element{
+  &__circle{
+    position: relative;
+  }
+
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .progress{
+    //transform: rotate();
+  }
+}

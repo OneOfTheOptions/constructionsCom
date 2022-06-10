@@ -1,5 +1,5 @@
 .recalls-section{
-  padding: 91px 0;
+  padding-top: 91px;
   background-color: #F4F5F7;
 
   &__slider-nav{
@@ -20,6 +20,7 @@
     overflow: hidden;
   }
   &__image{
+    margin-bottom: -61px;
     margin-right: 4px;
   }
   &__items{
@@ -64,7 +65,7 @@
     margin-bottom: 4px;
 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 16px;
     line-height: 160%;
 
