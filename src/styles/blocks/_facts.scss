@@ -16,23 +16,68 @@
 }
 
 .facts-element{
-  height: 100%;
-  width: 100%;
   &__circle{
     position: relative;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+    width: 148px;
+    height: 148px;
+    margin-bottom: 20px;
+
+    --progress-stroke: #000;
+    --progress-bg-opacity: 0.3;
+
+    svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .progress{
+      stroke: var(--progress-stroke);
+      transform: rotate(-90deg) translateX(20px);
+      transform-origin: center;
+    }
+    .progress-bg{
+      stroke: var(--progress-stroke);
+      opacity: var(--progress-bg-opacity);
+    }
+
+    &--one-color{
+      --progress-stroke: #F89828;
+    }
+    &--two-color{
+      --progress-stroke: #F52F6E;
+    }
+    &--three-color{
+      --progress-stroke: #5A87FC;
+    }
+    &--four-color{
+      --progress-stroke: #03CEA4;
+    }
+  }
+  &__value{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: var(--color-ebony);
   }
 
-  svg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
-  .progress{
-    //transform: rotate();
+  &__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+
+    text-align: center;
+
+    color: var(--color-ebony);
   }
 }

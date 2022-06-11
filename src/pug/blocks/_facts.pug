@@ -6,12 +6,45 @@ mixin facts
             ul.list-reset.facts__list
                 li.facts__item
                     .facts-element
-                        .facts-element__circle
+                        div(data-percent="88").facts-element__circle.facts-element__circle--one-color
                             svg(class="circle-bg" viewBox="-10 -10 320 320")
-                                circle(class="progress-bg" r="148" cx="148" cy="148" fill="none" stroke="rgba(248, 152, 40, 0.4)" stroke-width="13")
+                                circle(class="progress-bg" r="150" cx="150" cy="150" fill="none" stroke-width="13")
                             svg(class="circle" viewBox="-10 -10 320 320")
-                                circle(class="progress" r="148" cx="148" cy="148" fill="none" stroke="#F89828" stroke-width="13")
+                                circle(class="progress" r="150" cx="150" cy="150" fill="none" stroke-width="13")
                             .facts-element__value.
-                                98%
+                                88%
+                        span.facts-element__text.
+                            Totally satisfied clients
+                li.facts__item
+                    .facts-element
+                        div(data="" data-value="").facts-element__circle.facts-element__circle--two-color
+                            svg(class="circle-bg" viewBox="-10 -10 320 320")
+                                circle(class="progress-bg" r="150" cx="150" cy="150" fill="none" stroke-width="13")
+                            svg(class="circle" viewBox="-10 -10 320 320")
+                                circle(class="progress" r="150" cx="150" cy="150" fill="none" stroke-width="13")
+                            .facts-element__value.
+                                88%
+                        span.facts-element__text.
+                            Totally satisfied clients
+                li.facts__item
+                    .facts-element
+                        div(data="" data-value="").facts-element__circle.facts-element__circle--three-color
+                            svg(class="circle-bg" viewBox="-10 -10 320 320")
+                                circle(class="progress-bg" r="150" cx="150" cy="150" fill="none" stroke-width="13")
+                            svg(class="circle" viewBox="-10 -10 320 320")
+                                circle(class="progress" r="150" cx="150" cy="150" fill="none" stroke-width="13")
+                            .facts-element__value.
+                                88%
+                        span.facts-element__text.
+                            Totally satisfied clients
+                li.facts__item
+                    .facts-element
+                        div(data="" data-value="").facts-element__circle.facts-element__circle--four-color
+                            svg(class="circle-bg" viewBox="-10 -10 320 320")
+                                circle(class="progress-bg" r="150" cx="150" cy="150" fill="none" stroke-width="13")
+                            svg(class="circle" viewBox="-10 -10 320 320")
+                                circle(class="progress" r="150" cx="150" cy="150" fill="none" stroke-width="13")
+                            .facts-element__value.
+                                88%
                         span.facts-element__text.
                             Totally satisfied clients

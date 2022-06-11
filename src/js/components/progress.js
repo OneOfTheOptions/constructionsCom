@@ -1,7 +1,7 @@
 const circle = document.querySelector('.progress');
 
 const progressAnimation = () => {
-    let percentProgress = Math.floor(85);
+    let percentProgress = Math.floor(88);
 
     let radius = circle.getAttribute('r');
     let circleLength = 2*Math.PI * radius;
