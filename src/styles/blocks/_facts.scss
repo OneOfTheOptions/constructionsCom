@@ -1,6 +1,21 @@
 .facts{
   padding-top: 180px;
-  background-image: url("../img/facts_background.jpg");
+  background-color: var(--color-white);
+  position: relative;
+  overflow: hidden;
+
+  &::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -197px;
+    width: 570px;
+    height: 1065px;
+    background-image: url("../../src/img/facts_background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   &__title{
     padding-bottom: 60px;
@@ -70,6 +85,7 @@
   }
 
   &__text{
+    display: block;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
