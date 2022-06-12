@@ -1,9 +1,11 @@
 .subtitleSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   .subtitle{
     padding: 0;
-    margin: 0;
-    margin-right: 40px;
-    margin-left: -4px;
+    margin: 0 40px 0 -4px;
   }
   .btn{
     padding: 0 39px;

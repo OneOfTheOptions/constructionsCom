@@ -194,6 +194,36 @@ body{
   padding-top: 120px;
 }
 
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 39px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  border-radius: 4px;
+  border: transparent;
+
+
+  &--stroke{
+    margin-left: -2px;
+    border: 1px solid var(--color-white);
+    &-white{
+      padding: 0 39px;
+    }
+  }
+  &--fill{
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 0 39px;
+    &-primary{
+
+
+    }
+  }
+}
+
 .video-block__wrap{
 }
 
