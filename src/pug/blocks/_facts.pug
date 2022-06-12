@@ -17,7 +17,7 @@ mixin facts
                             Totally satisfied clients
                 li.facts__item
                     .facts-element
-                        div(data="80" data-value="20").facts-element__circle.facts-element__circle--two-color
+                        div(data-percentage = 'true' data-full="26" data-value="20").facts-element__circle.facts-element__circle--two-color
                             svg(class="circle-bg" viewBox="-10 -10 320 320")
                                 circle(class="progress-bg" r="150" cx="150" cy="150" fill="none" stroke-width="13")
                             svg(class="circle" viewBox="-10 -10 320 320")
@@ -28,7 +28,7 @@ mixin facts
                             Years of experience
                 li.facts__item
                     .facts-element
-                        div(data="10000" data-value="9452").facts-element__circle.facts-element__circle--three-color
+                        div(data-percentage = 'true' data-full="10000" data-value="9452").facts-element__circle.facts-element__circle--three-color
                             svg(class="circle-bg" viewBox="-10 -10 320 320")
                                 circle(class="progress-bg" r="150" cx="150" cy="150" fill="none" stroke-width="13")
                             svg(class="circle" viewBox="-10 -10 320 320")
@@ -39,7 +39,7 @@ mixin facts
                             Working hours spent
                 li.facts__item
                     .facts-element
-                        div(data-percent="88").facts-element__circle.facts-element__circle--four-color
+                        div(data-percent="100").facts-element__circle.facts-element__circle--four-color
                             svg(class="circle-bg" viewBox="-10 -10 320 320")
                                 circle(class="progress-bg" r="150" cx="150" cy="150" fill="none" stroke-width="13")
                             svg(class="circle" viewBox="-10 -10 320 320")
