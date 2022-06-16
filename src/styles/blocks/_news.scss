@@ -4,7 +4,7 @@
     padding-bottom: 60px;
   }
   &__list{
-    padding-bottom: 80px;
+    padding: 0 2px 80px 2px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 255px);
@@ -30,9 +30,11 @@
               0 12px 10px -6px rgba(154, 156, 165, 0.04),
               0 4px 4px -4px rgba(30, 33, 44, 0.03);
   background: var(--color-white);
+  &__image{
 
+  }
   &__title{
-    margin: 0 0 12px 0;
+    margin: 0 0 13px 0;
   }
   &__descr{
     margin: 0;
@@ -68,7 +70,7 @@
       padding: 16px 24px 24px;
     }
     .news-article__title{
-      margin-bottom: 8px;
+      margin-bottom: 9px;
     }
   }
 }

@@ -1,8 +1,9 @@
 const bodyStyles = window.getComputedStyle(document.body);
 const gap = parseInt(bodyStyles.getPropertyValue('--grid-gap'));
-
+const sliderWidth = parseInt(bodyStyles.getPropertyValue('--slider-width'));
 
 const swiper = new Swiper('.swiper', {
+    width: sliderWidth,
     slidesPerView: 3,
     spaceBetween: gap,
     loop: true,
