@@ -21,16 +21,29 @@
     font-size: 14px;
     line-height: 150%;
 
+    &--big{
+      padding-top: 10px;
+      height: 66px;
+      resize: none;
+    }
+
     &::placeholder{
       color: #9a9ca5;
     }
-
-
   }
+
   &--big{
     flex-grow: 1;
     .form-field__input{
     width: 100%;
+    }
+  }
+
+  &--grey{
+    width: 100%;
+    .form-field__input{
+      width: 100%;
+      background-color: #f4f5f7;;
     }
   }
 }

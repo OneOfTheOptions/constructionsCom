@@ -1,0 +1,31 @@
+mixin contacts-section
+    section.contacts-section
+        h2.visually-hidden.
+            Contacts
+        .container.contacts-section__container
+            article.contacts-section__form.contacts-form
+                h3.contacts-form__title.
+                    A quick way to discuss details
+                label.form-field.form-field--grey.contacts-form__field
+                    span.form-field__caption.
+                        Name*
+                    input(type = "text" name="name" placeholder="Your name").form-field__input
+                label.form-field.form-field--grey.contacts-form__field
+                    span.form-field__caption.
+                        Phone*
+                    input(type = "tel" name="phone" placeholder="Your phone number").form-field__input
+                label.form-field.form-field--grey.contacts-form__field
+                    span.form-field__caption.
+                        Email
+                    input(type = "email" name="email" placeholder="Your working email").form-field__input
+                label.form-field.form-field--grey.contacts-form__field
+                    span.form-field__caption.
+                        Message*
+                    textarea(name="message" placeholder="Your message").form-field__input.form-filed__input--big
+                label.custom-checkbox
+                    input(type="checkbox").custom-checkbox__input
+                    span.custom-checkbox__text.
+                        I agree to receive communications from Createx Construction Bureau.
+                .centered
+                    button(type = "submit").contacts-form__btn.btn.btn--fill.
+                        send request
