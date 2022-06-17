@@ -201,6 +201,7 @@ body{
   padding-top: 120px;
 }
 
+//BUTTON
 .btn {
   font-weight: 700;
   font-size: 16px;
@@ -231,9 +232,11 @@ body{
   }
 }
 
+//VIDEO-BLOCK
 .video-block__wrap{
 }
 
+//LIST
 .main-list{
   &__item{
     width: 285px;
@@ -265,19 +268,90 @@ body{
   }
 }
 
+//CHECKBOX
 .custom-checkbox{
   &__input{
   position: absolute;
+  z-index: -1;
   opacity: 0;
+  //-webkit-appearance: none;
   }
 
   &__text{
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
 
     color: var(--color-grey);
+  }
+
+  &__text::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: inline-block;
+    border: 1px solid var(--color-ebony);
+    border-radius: 3px;
+    width: 16px;
+    height: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  &__text::after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/svg/check.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10px 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  /* стили при наведении курсора на checkbox */
+  &__input:not(:disabled):not(:checked)+&__text:hover::before {
+    transition: border-color 0.1s ease-in-out;
+    border-color: var(--color-primary);
+  }
+
+  /* стили для активного чекбокса (при нажатии на него) */
+  &__input:not(:disabled):active+&__text::before {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+
+  /* стили для чекбокса, находящегося в фокусе */
+ /* &__input:focus+&__text::before {
+    box-shadow: 0 0 0 4px var(--color-primary);
+  }*/
+
+  /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+   &__input:focus:not(:checked)+&__text::before {
+     box-shadow: 0 0 0 4px var(--color-primary);
+     border-color: var(--color-primary);
+  }
+
+  /* стили для чекбокса, находящегося в состоянии checked */
+  &__input:checked+&__text::before {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+  &__input:checked+&__text::after {
+    opacity: 1;
+  }
+
+  /* стили для чекбокса, находящегося в состоянии disabled */
+  &__input:disabled+&__text::before {
+    background-color: #e9ecef;
   }
 }
 //
