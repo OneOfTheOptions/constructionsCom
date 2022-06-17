@@ -1,3 +1,32 @@
 mixin footer
-    footer.footer.footer--main
+    footer.footer
         .container.footer__container
+            .footer__left
+                a.header__link(href='#')
+                    +image('logoWhite')
+                ul.social.list-reset
+                    li.social__item
+                        a(href="#" target="_blank" aria-label="whatsapp")
+                    li.social__item
+                        a(href="#" target="_blank" aria-label="messenger-rooms")
+                    li.social__item
+                        a(href="#" target="_blank" aria-label="facebook")
+                    li.social__item
+                        a(href="#" target="_blank" aria-label="twitter")
+                    li.social__item
+                        a(href="#" target="_blank" aria-label="youtube")
+                    p.footer-descr.
+                        Createx Construction Bureau has been successfully operating in the USA construction market since 2000.
+                        We are proud to offer you quality construction and exemplary service.
+                        Our mission is to set the highest standards for construction sphere.
+            form(action="#").footer-form
+                h3.footer-form__subtitle.
+                    Let’s stay in touch
+                .footer-form__items
+                label.form-field.form-field--grey.footer-form__field
+                    input(type = "email" name="email" placeholder="Your email address").form-field__input
+                button.footer-form__btn.btn.btn--fill.
+                    subscribe
+                .footer-form__descr.
+                    *Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.
+

@@ -52,6 +52,7 @@
       transform: rotate(-90deg) translateX(20px);
       transform-origin: center;
     }
+
     .progress-bg{
       stroke: var(--progress-stroke);
       opacity: var(--progress-bg-opacity);
@@ -70,6 +71,15 @@
       --progress-stroke: #03CEA4;
     }
   }
+
+  &__circle:hover {
+    .circle{
+      transition: 0.6s ease-in-out;
+      transform-origin: 50% 50%;
+      transform: rotate(360deg);
+    }
+  }
+
   &__value{
     position: absolute;
     left: 50%;
