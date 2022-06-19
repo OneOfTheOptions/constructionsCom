@@ -2,23 +2,34 @@ mixin footer
     footer.footer
         .container.footer__container
             .footer__left
-                a.header__link(href='#')
-                    +image('logoWhite')
-                ul.footer__socials.socials.list-reset
-                    li.socials__item
-                        a(href="#" target="_blank" aria-label="whatsapp")
-                    li.socials__item
-                        a(href="#" target="_blank" aria-label="messenger-rooms")
-                    li.socials__item
-                        a(href="#" target="_blank" aria-label="facebook")
-                    li.socials__item
-                        a(href="#" target="_blank" aria-label="twitter")
-                    li.socials__item
-                        a(href="#" target="_blank" aria-label="youtube")
-                    p.footer__descr.
-                        Createx Construction Bureau has been successfully operating in the USA construction market since 2000.
-                        We are proud to offer you quality construction and exemplary service.
-                        Our mission is to set the highest standards for construction sphere.
+                .footer__top
+                    a.header__link(href='#')
+                        +image('logoWhite')
+                    ul.footer__socials.socials.list-reset
+                        li.socials__item
+                            a(href="#" target="_blank" aria-label="whatsapp")
+                                svg(aria-hidden="true").socials__item--icon
+                                    use(xlink:href="#whatsapp")
+                        li.socials__item
+                            a(href="#" target="_blank" aria-label="messenger-rooms")
+                                svg(aria-hidden="true").socials__item--icon
+                                    use(xlink:href="#messenger")
+                        li.socials__item
+                            a(href="#" target="_blank" aria-label="facebook")
+                                svg(aria-hidden="true").socials__item--icon
+                                    use(xlink:href="#facebook")
+                        li.socials__item
+                            a(href="#" target="_blank" aria-label="twitter")
+                                svg(aria-hidden="true").socials__item--icon
+                                    use(xlink:href="#twitter")
+                        li.socials__item
+                            a(href="#" target="_blank" aria-label="youtube")
+                                svg(aria-hidden="true").socials__item--icon
+                                    use(xlink:href="#youtube")
+                p.footer__descr.
+                    Createx Construction Bureau has been successfully operating in the USA construction market since 2000.
+                    We are proud to offer you quality construction and exemplary service.
+                    Our mission is to set the highest standards for construction sphere.
             form(action="#").footer-form.footer__form
                 h3.footer-form__subtitle.
                     Let’s stay in touch
