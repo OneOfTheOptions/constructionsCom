@@ -58,10 +58,29 @@
       border: 1px solid rgba(255, 255, 255, 0.2);
       background: rgba(255, 255, 255, 0.12);
   }
+
+  &__copyright{
+    padding-top: 29px;
+
+    font-size: 12px;
+    line-height: 150%;
+
+    color: var(--color-white);
+
+    span{
+      margin-left: 4px;
+      padding-left: 20px;
+      background-image: url("../img/svg/copyright_heart.svg");
+      background-position: left center;
+      background-size: 16px 16px;
+      background-repeat: no-repeat;
+    }
+  }
 }
 
 .footer-form{
   margin-left: -2px;
+  margin-bottom: 0;
   &__title{
     margin: 0 0 24px 0;
     font-weight: 700;
@@ -97,6 +116,7 @@
 }
 
 .footer-title{
+  margin: 0 0 15px 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
@@ -108,23 +128,44 @@
 }
 
 .footer-address{
+  padding-top: 19px;
   font-style: normal;
+
   &__item{
     display: block;
-
-    font-weight: 400;
     font-size: 16px;
     line-height: 160%;
 
-    color: var(--color-white);
-    opacity: 0.6;
+    &:not(:last-child){
+      margin-bottom: 4px;
+    }
+
+    a{
+      color: inherit;
+    }
   }
   &__name{
-    font-weight: 400;
+    color: var(--color-white);
+  }
+}
+
+.footer-nav{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 54px;
+  &__col{
+    &:not(:last-child){
+      margin-right: 124px;
+    }
+  }
+  &__item{
+    &:not(:last-child){
+      margin-bottom: 4px;
+    }
+  }
+  &__link{
     font-size: 16px;
     line-height: 160%;
-
-    color: var(--color-white);
-    flex-grow: 0;
+    color: inherit;
   }
 }
