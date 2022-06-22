@@ -86,12 +86,45 @@
     letter-spacing: 0.5px;
   }
   &__descr{
+    margin: 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
 
     color: var(--color-white);
-
     opacity: 0.6;
+  }
+}
+
+.footer-title{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: var(--color-white);
+}
+
+.footer-address{
+  font-style: normal;
+  &__item{
+    display: block;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: var(--color-white);
+    opacity: 0.6;
+  }
+  &__name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: var(--color-white);
+    flex-grow: 0;
   }
 }
