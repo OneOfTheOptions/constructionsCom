@@ -3,27 +3,27 @@ mixin footer
         .container.footer__container
             .footer__left
                 .footer__top
-                    a.header__link(href='#')
+                    a(href='#').logo.footer__logo
                         +image('logoWhite')
                     ul.footer__socials.socials.list-reset
                         li.socials__item
-                            a(href="#" target="_blank" aria-label="whatsapp")
+                            a(href="#" target="_blank" aria-label="whatsapp").socials__link
                                 svg(aria-hidden="true").socials__item--icon
                                     use(xlink:href="#whatsapp")
                         li.socials__item
-                            a(href="#" target="_blank" aria-label="messenger-rooms")
+                            a(href="#" target="_blank" aria-label="messenger-rooms").socials__link
                                 svg(aria-hidden="true").socials__item--icon
                                     use(xlink:href="#messenger")
                         li.socials__item
-                            a(href="#" target="_blank" aria-label="facebook")
+                            a(href="#" target="_blank" aria-label="facebook").socials__link
                                 svg(aria-hidden="true").socials__item--icon
                                     use(xlink:href="#facebook")
                         li.socials__item
-                            a(href="#" target="_blank" aria-label="twitter")
+                            a(href="#" target="_blank" aria-label="twitter").socials__link
                                 svg(aria-hidden="true").socials__item--icon
                                     use(xlink:href="#twitter")
                         li.socials__item
-                            a(href="#" target="_blank" aria-label="youtube")
+                            a(href="#" target="_blank" aria-label="youtube").socials__link
                                 svg(aria-hidden="true").socials__item--icon
                                     use(xlink:href="#youtube")
                 p.footer__descr.
@@ -31,14 +31,14 @@ mixin footer
                     We are proud to offer you quality construction and exemplary service.
                     Our mission is to set the highest standards for construction sphere.
             form(action="#").footer-form.footer__form
-                h3.footer-form__subtitle.
+                h3.footer-form__title.
                     Let’s stay in touch
                 .footer-form__items
-                label.form-field.form-field--grey.footer-form__field
-                    input(type = "email" name="email" placeholder="Your email address").form-field__input
-                button.footer-form__btn.btn.btn--fill.
-                    subscribe
-                .footer-form__descr.
+                    label.form-field.footer-form__field
+                        input(type = "email" name="email" placeholder="Your email address").form-field__input
+                    button.footer-form__btn.btn.btn--fill.
+                        subscribe
+                p.footer-form__descr.
                     *Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.
             address.footer-address.footer__address
                 h3.footer-address__title.

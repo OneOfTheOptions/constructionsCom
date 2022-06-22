@@ -1,11 +1,16 @@
+//крупные импорты
+@import "components/slider-nav.scss";
+
+//средние импорты
 @import "components/header";
 @import "components/request";
-@import "components/form-field";
 @import "components/video-block";
 @import "components/subtitleSection";
-@import "components/_socials.scss";
+@import "components/form-field";
+@import "components/socials.scss";
 @import "components/footer";
-@import "components/_slider-nav.scss";
+
+
 
 
 

@@ -3,8 +3,8 @@
   align-items: center;
 
   &__item{
-    :not(:last-child){
-      margin-right: 20px;
+    &:not(:last-child){
+      margin-right: 16px;
     }
   }
   &__link{
