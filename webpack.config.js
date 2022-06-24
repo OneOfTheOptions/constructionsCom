@@ -38,7 +38,12 @@ module.exports = {
             filename: '[name].[contenthash].css'
         }),
         new HtmlWebpackPlugin({
-            template: "./src/pug/pages/index.pug"
+            filename: "index.html",
+            template: "./src/pug/pages/index.pug",
+        }),
+        new HtmlWebpackPlugin({
+            filename: "services.html",
+            template: "./src/pug/pages/services.pug",
         })],
     module: {
         rules: [
