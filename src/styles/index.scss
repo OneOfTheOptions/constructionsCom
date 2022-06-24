@@ -1,4 +1,4 @@
-@use 'vendors/null';
+@import 'vendors/null';
 @import 'vars';
 @import 'mixins';
 @import 'fonts';
@@ -6,9 +6,6 @@
 @import 'components';
 @import "blocks";
 @import "vendors";
-
-
-
 
 //@import "~bootstrap/scss/bootstrap";
 
