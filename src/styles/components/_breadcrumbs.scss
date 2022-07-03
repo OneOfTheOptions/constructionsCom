@@ -1,0 +1,17 @@
+.breadcrumbs{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: var(--color-grey);
+
+    &:not([href]){
+      color: #9A9CA5;
+    }
+  }
+}
