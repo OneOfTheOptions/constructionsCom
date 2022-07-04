@@ -202,6 +202,7 @@ body{
 
 //BUTTON
 .btn {
+  display: inline-block;
   font-weight: 700;
   font-size: 16px;
   line-height: 50px;
@@ -218,6 +219,10 @@ body{
     border: 1px solid var(--color-white);
     &-white{
       padding: 0 39px;
+    }
+    &-primary{
+      border-color: var(--color-primary);
+      color: var(--color-primary);
     }
   }
   &--fill{
