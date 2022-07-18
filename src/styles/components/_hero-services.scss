@@ -1,8 +1,6 @@
 .page-hero{
   padding-top: 153px;
   padding-bottom: 178px;
-  background-image: url("../img/services-page/services_bg.png");
-  background-position: right -6px top;
   background-repeat: no-repeat;
   background-color: var(--color-athens);
 
@@ -36,5 +34,13 @@
     line-height: 150%;
 
     color: var(--color-storm);
+  }
+  &__services{
+    background-image: url("../img/services-page/services_bg.png");
+    background-position: right -6px top;
+  }
+  &__interiorDesign{
+    background-image: url("../img/interiorDesign-page/interiorDesign_bg.png");
+    background-position: right -6px top;
   }
 }
