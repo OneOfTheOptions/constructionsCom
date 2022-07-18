@@ -42,7 +42,7 @@ module.exports = {
             template: "./src/pug/pages/index.pug",
         }),
         new HtmlWebpackPlugin({
-            filename: "services.html",
+            filename: "pages/services.html",
             template: "./src/pug/pages/services.pug",
         })],
     module: {

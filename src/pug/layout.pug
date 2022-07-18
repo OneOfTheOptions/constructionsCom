@@ -1,19 +1,12 @@
+include libs/_libs
 include components/_components
 include blocks/_blocks
-include libs/_libs
+
 
 doctype html
 html(lang='en')
-    head
-        title Createx CONSTRUCTION
-        meta(charset='UTF-8')
-        meta(name="viewport" content="width=device-width, initial-scale=1.0")
-        //meta(name="robots" content="noindex, nofollow")
-        meta(http-equiv="X-UA-Compatible" content="ie=edge")
-        meta(name="theme-color" content="#111111")
-        link(rel="shortcut icon" href="#f" type="image/x-icon")
-        link(rel="stylesheet" href="")
     include _head
+    include libs/_sprite
     body
         block content
-    include _scripts
+        include _scripts
