@@ -1,7 +1,9 @@
 .page-hero{
   padding-top: 153px;
-  padding-bottom: 178px;
+  padding-bottom: 80px;
+  min-height: 600px;
   background-repeat: no-repeat;
+  background-position: right -6px top;
   background-color: var(--color-athens);
 
   &__breadcrumbs{
@@ -37,10 +39,8 @@
   }
   &__services{
     background-image: url("../img/services-page/services_bg.png");
-    background-position: right -6px top;
   }
   &__interiorDesign{
     background-image: url("../img/interiorDesign-page/interiorDesign_bg.png");
-    background-position: right -6px top;
   }
 }
