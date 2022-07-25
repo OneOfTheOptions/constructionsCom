@@ -5,6 +5,7 @@ import './styles/index.scss'
 
 import './js/components/sliders.js'
 import './js/components/progress.js'
+import './js/components/accordion.js'
 
 // import $ from "jquery";
 // import 'bootstrap';

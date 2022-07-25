@@ -46,8 +46,8 @@ module.exports = {
             template: "./src/pug/pages/services.pug",
         }),
         new HtmlWebpackPlugin({
-        filename: "pages/interior-design.html",
-        template: "./src/pug/pages/interior-design.pug",
+            filename: "pages/interior-design.html",
+            template: "./src/pug/pages/interior-design.pug",
         })],
     module: {
         rules: [
