@@ -30,6 +30,10 @@
     .accordion__control{
       position: relative;
       text-align: left;
+      //border: none;
+    }
+    .accordion__content{
+      border: none;
     }
 
     .accordion__title{
@@ -40,7 +44,7 @@
       color: var(--color-ebony);
     }
 
-    .accordion__icon{
+    .accordion__icon-offer{
       position: absolute;
       left: 0;
       top: 0;
