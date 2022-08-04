@@ -4,9 +4,6 @@
 
   &__list{
     padding-top: 60px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: var(--grid-gap);
     counter-reset: section;
   }
 
