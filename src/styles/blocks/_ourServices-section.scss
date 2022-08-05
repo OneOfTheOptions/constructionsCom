@@ -9,11 +9,9 @@
 }
 
 .ourServices-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 28px;
-
-    &__item{
-      grid-column: 3 span;
-    }
 
     &--section{
       margin-bottom: 80px;
