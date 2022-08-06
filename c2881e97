@@ -1,0 +1,192 @@
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{0}: reset: moving to 803c0a8b
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{1}: checkout: moving from c2881e97fe1560f13afd1de73904715c683f4cab to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33mc2881e9[m HEAD@{2}: checkout: moving from temp to c2881e97fe1560f13afd1de73904715c683f4cab
+[33mbafca75[m HEAD@{3}: checkout: moving from bafca75203c49293fad9cec43d8808e6d7af5b44 to temp
+[33mbafca75[m HEAD@{4}: commit: ??
+[33mc2881e9[m HEAD@{5}: checkout: moving from 8974eef9e6af15e25b65929c395c9faafa6cbe6f to c2881e97fe1560f13afd1de73904715c683f4cab
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{6}: checkout: moving from 803c0a8b983fe5b7b797a2fd6ae54ee46ffc5b93 to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{7}: merge Origin-first/master: Fast-forward
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{8}: checkout: moving from c2881e97fe1560f13afd1de73904715c683f4cab to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33mc2881e9[m HEAD@{9}: checkout: moving from 8409cc16c4f798567756dcb4aa5806aa0aaed6cc to c2881e97fe1560f13afd1de73904715c683f4cab
+[33m8409cc1[m HEAD@{10}: checkout: moving from d99dddb55889355d9dd3a9f773c2aebc15f0acbc to 8409cc16c4f798567756dcb4aa5806aa0aaed6cc
+[33md99dddb[m HEAD@{11}: commit: ??
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{12}: checkout: moving from 7d4388103351440c721070f32f4e6ba96c4cdeaa to 803c0a8b983fe5b7b797a2fd6ae54ee46ffc5b93
+[33m7d43881[m HEAD@{13}: rebase (reword): ??
+[33m5870311[m HEAD@{14}: rebase: fast-forward
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{15}: rebase (start): checkout 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m5870311[m HEAD@{16}: commit: ??
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{17}: reset: moving to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33me90457d[m HEAD@{18}: commit: ??
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{19}: reset: moving to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m49ea105[m HEAD@{20}: commit: ??
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{21}: reset: moving to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m377d387[m HEAD@{22}: cherry-pick: branch Global Grid FIX
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{23}: checkout: moving from 803c0a8b983fe5b7b797a2fd6ae54ee46ffc5b93 to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{24}: reset: moving to 803c0a8b
+[33m73f567c[m HEAD@{25}: commit: our-benefits start
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{26}: checkout: moving from d29d15f06504f8cb39d58844fb4973a027f94c1e to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33md29d15f[m HEAD@{27}: reset: moving to d29d15f0
+[33m9d6ac10[m HEAD@{28}: reset: moving to 9d6ac102
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{29}: reset: moving to 803c0a8b
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{30}: checkout: moving from 803c0a8b983fe5b7b797a2fd6ae54ee46ffc5b93 to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{31}: checkout: moving from 8974eef9e6af15e25b65929c395c9faafa6cbe6f to 803c0a8b983fe5b7b797a2fd6ae54ee46ffc5b93
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{32}: checkout: moving from master to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{33}: checkout: moving from 8974eef9e6af15e25b65929c395c9faafa6cbe6f to master
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{34}: checkout: moving from d29d15f06504f8cb39d58844fb4973a027f94c1e to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33md29d15f[m HEAD@{35}: reset: moving to d29d15f0
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{36}: checkout: moving from d29d15f06504f8cb39d58844fb4973a027f94c1e to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33md29d15f[m HEAD@{37}: reset: moving to d29d15f0
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{38}: checkout: moving from d29d15f06504f8cb39d58844fb4973a027f94c1e to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33md29d15f[m HEAD@{39}: reset: moving to d29d15f0
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{40}: checkout: moving from master to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m803c0a8[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mOrigin-first/master[m[33m)[m HEAD@{41}: revert: Revert "branch Global Grid FIX"
+[33m9d6ac10[m HEAD@{42}: merge Origin-first/master: Merge made by the 'ort' strategy.
+[33m8409cc1[m HEAD@{43}: commit (amend): our-benefits start
+[33md29d15f[m HEAD@{44}: checkout: moving from 8974eef9e6af15e25b65929c395c9faafa6cbe6f to master
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{45}: checkout: moving from 7caad418407dfeb36239ffb52ad7b6a3e1a964cd to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m7caad41[m HEAD@{46}: commit: Revert "branch Global Grid FIX"
+[33m1dbee48[m HEAD@{47}: commit: our-benefits start
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{48}: checkout: moving from master to 8974eef9e6af15e25b65929c395c9faafa6cbe6f
+[33m6f98ed6[m HEAD@{49}: merge Origin-first/master: Merge made by the 'ort' strategy.
+[33m3883dd3[m HEAD@{50}: commit (amend): Новое нour-benefits start
+[33md29d15f[m HEAD@{51}: commit: branch Global Grid FIX
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{52}: checkout: moving from gridFix to master
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{53}: checkout: moving from master to gridFix
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{54}: checkout: moving from master to master
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{55}: merge gridFix: Fast-forward
+[33mc2881e9[m HEAD@{56}: checkout: moving from gridFix to master
+[33m8974eef[m[33m ([m[1;31mOrigin-first/gridFix[m[33m)[m HEAD@{57}: commit: branch Global Grid FIX
+[33mc2881e9[m HEAD@{58}: checkout: moving from master to gridFix
+[33mc2881e9[m HEAD@{59}: commit: how-we-do DONE
+[33m950c626[m HEAD@{60}: commit: we-offer accordion in work
+[33md4959b0[m HEAD@{61}: checkout: moving from d4959b099f7caa62eae5285329111f61b95598a3 to master
+[33md4959b0[m HEAD@{62}: checkout: moving from master to d4959b099f7caa62eae5285329111f61b95598a3
+[33md4959b0[m HEAD@{63}: checkout: moving from bdfda6b2da56676763cd112fd616401b74859202 to master
+[33mbdfda6b[m HEAD@{64}: checkout: moving from 96d53bd1afb8a63b66156ee1b40e67b1ec910bfb to bdfda6b2da56676763cd112fd616401b74859202
+[33m96d53bd[m HEAD@{65}: checkout: moving from bdfda6b2da56676763cd112fd616401b74859202 to 96d53bd1afb8a63b66156ee1b40e67b1ec910bfb
+[33mbdfda6b[m HEAD@{66}: checkout: moving from d5bc7e9723047b31cb82c604a802baf2105f7cb8 to bdfda6b2da56676763cd112fd616401b74859202
+[33md5bc7e9[m HEAD@{67}: checkout: moving from 48fcec3234939c1ccd47c8229651bd858e68aa58 to d5bc7e9723047b31cb82c604a802baf2105f7cb8
+[33m48fcec3[m HEAD@{68}: checkout: moving from 18/07 to 48fcec3234939c1ccd47c8229651bd858e68aa58
+[33m96d53bd[m HEAD@{69}: reset: moving to HEAD
+[33m96d53bd[m HEAD@{70}: checkout: moving from 96d53bd1afb8a63b66156ee1b40e67b1ec910bfb to 18/07
+[33m96d53bd[m HEAD@{71}: checkout: moving from 86d7cf3087fea7b8a853c2a7b2690f1811962dab to 96d53bd1afb8a63b66156ee1b40e67b1ec910bfb
+[33m86d7cf3[m HEAD@{72}: checkout: moving from d4959b099f7caa62eae5285329111f61b95598a3 to 86d7cf3087fea7b8a853c2a7b2690f1811962dab
+[33md4959b0[m HEAD@{73}: checkout: moving from master to d4959b099f7caa62eae5285329111f61b95598a3
+[33md4959b0[m HEAD@{74}: commit: we-offer accordion in work
+[33m9bbf893[m HEAD@{75}: commit: we-offer accordion in work
+[33mcb2f94c[m HEAD@{76}: commit: we-offer accordion in work
+[33m95478fe[m HEAD@{77}: commit: we-offer accordion in work
+[33mc7d06af[m HEAD@{78}: commit: we-offer
+[33m61e1461[m HEAD@{79}: commit: we-offer
+[33m86d7cf3[m HEAD@{80}: commit: interiorDesign page starting
+[33mf0f9b96[m HEAD@{81}: commit: interiorDesign page starting
+[33mbed3928[m HEAD@{82}: commit: interiorDesign page starting
+[33m96d53bd[m HEAD@{83}: reset: moving to 96d53bd1afb8a63b66156ee1b40e67b1ec910bfb
+[33m23769c1[m HEAD@{84}: commit (amend): interiorDesign Page starting
+[33m82d55e8[m HEAD@{85}: commit: interiorDesign page starting
+[33m96d53bd[m HEAD@{86}: commit: HEAD fixed
+[33mbdfda6b[m HEAD@{87}: commit: page services is DONE
+[33m4bacf61[m HEAD@{88}: commit: page services in work
+[33m5c607fd[m HEAD@{89}: commit: added page services
+[33md5bc7e9[m HEAD@{90}: commit: added page services
+[33mc1d8e6d[m HEAD@{91}: commit: added page services
+[33me18c4e2[m HEAD@{92}: reset: moving to HEAD
+[33me18c4e2[m HEAD@{93}: reset: moving to HEAD
+[33me18c4e2[m HEAD@{94}: commit: added page services
+[33m6373315[m HEAD@{95}: commit: added page services
+[33m48fcec3[m HEAD@{96}: commit: first page DONE
+[33m5f1c8b9[m HEAD@{97}: commit: footer done
+[33m0e42cdf[m HEAD@{98}: commit: footer done
+[33md8749c1[m HEAD@{99}: commit: footer in work
+[33m9434d35[m HEAD@{100}: commit: footer in work
+[33m8618f31[m HEAD@{101}: commit: footer in work
+[33m432163b[m HEAD@{102}: commit: footer in work
+[33m38408a2[m HEAD@{103}: commit: footer start
+[33m5bc89de[m HEAD@{104}: commit: footer start
+[33mcfe4a6c[m HEAD@{105}: commit: contacts done + checkbox done
+[33m817342d[m HEAD@{106}: commit: contacts in work
+[33mf132c18[m HEAD@{107}: commit: news finished
+[33m21add09[m HEAD@{108}: commit: news almost finished
+[33meca4a80[m HEAD@{109}: commit: news start
+[33me1032da[m HEAD@{110}: commit: facts done
+[33mf5fb7a1[m HEAD@{111}: commit: facts done
+[33m21b0a86[m HEAD@{112}: commit: facts
+[33mf605ac8[m HEAD@{113}: commit: facts
+[33m1c176c6[m HEAD@{114}: commit: facts
+[33m525ee6d[m HEAD@{115}: commit: facts
+[33m3f52412[m HEAD@{116}: commit: facts start
+[33m75b10bb[m HEAD@{117}: commit: facts start
+[33m71ffe30[m HEAD@{118}: commit: recalls done
+[33me1d3f2e[m HEAD@{119}: commit: recalls starting
+[33m904937c[m HEAD@{120}: commit: recalls starting
+[33m059534e[m HEAD@{121}: commit: recalls starting
+[33m6d28696[m HEAD@{122}: commit: recalls starting
+[33m5297eb5[m HEAD@{123}: commit: recalls starting
+[33mbe14371[m HEAD@{124}: commit: recalls starting
+[33ma8fe9ab[m HEAD@{125}: commit: partners done
+[33m7ad1338[m HEAD@{126}: commit: partners done
+[33mbb92d13[m HEAD@{127}: commit: slider done
+[33me7e4d51[m HEAD@{128}: commit: slider done
+[33m774a661[m HEAD@{129}: commit: slider done
+[33m775e3ec[m HEAD@{130}: commit: slider
+[33ma5f5a03[m HEAD@{131}: commit: slider
+[33m9cc16c6[m HEAD@{132}: commit: OurServices done
+[33m375617b[m HEAD@{133}: commit: OurServices done
+[33m2abd84a[m HEAD@{134}: commit: OurServices svg
+[33mc91df40[m HEAD@{135}: commit: OurServices svg
+[33m2708dc6[m HEAD@{136}: commit: OurServices svg
+[33m63a39d2[m HEAD@{137}: commit: OurServices svg
+[33ma5bddf4[m HEAD@{138}: commit: OurServices svg
+[33m671172b[m HEAD@{139}: commit: OurServices svg
+[33m929ba8d[m HEAD@{140}: commit: OurServices
+[33m6ab1219[m HEAD@{141}: commit: mission complete
+[33ma253ba7[m HEAD@{142}: commit: mission complete
+[33m62115bf[m HEAD@{143}: commit: ourServices
+[33m1902b6c[m HEAD@{144}: commit: mission_done
+[33m7fce237[m HEAD@{145}: commit: init
+[33m9fd7bc2[m HEAD@{146}: commit: git lookout
+[33m29090de[m HEAD@{147}: commit: git lookout
+[33medfa222[m HEAD@{148}: merge Origin-first/main: Merge made by the 'ort' strategy.
+[33m5cd82ae[m HEAD@{149}: checkout: moving from master to master
+[33m5cd82ae[m HEAD@{150}: branch: Reset to Origin-first/master
+[33m5cd82ae[m HEAD@{151}: Branch: renamed refs/heads/main to refs/heads/master
+[33m5cd82ae[m HEAD@{153}: commit: Commit
+[33m05ff046[m HEAD@{154}: commit: start
+[33m910f2cb[m HEAD@{155}: commit: start
+[33m626b547[m HEAD@{156}: Branch: renamed refs/heads/master to refs/heads/main
+[33m626b547[m HEAD@{158}: commit: start
+[33ma861590[m HEAD@{159}: rebase (continue) (finish): returning to refs/heads/master
+[33ma861590[m HEAD@{160}: rebase (continue) (pick): start
+[33md2b0479[m HEAD@{161}: rebase (continue): start
+[33mde3f8d3[m HEAD@{162}: rebase (pick): c2
+[33mc49b32b[m HEAD@{163}: rebase (pick): c2
+[33m4eaf19d[m HEAD@{164}: rebase (start): checkout origin/main
+[33m7c23f53[m HEAD@{165}: checkout: moving from main to master
+[33mfdba39d[m HEAD@{166}: merge origin/main: Merge made by the 'ort' strategy.
+[33m5cbb315[m HEAD@{167}: rebase (continue) (finish): returning to refs/heads/main
+[33m5cbb315[m HEAD@{168}: rebase (continue): Webpack.yml
+[33m7c23f53[m HEAD@{169}: rebase (start): checkout HEAD
+[33m7c23f53[m HEAD@{170}: Branch: renamed refs/heads/start to refs/heads/master
+[33m7c23f53[m HEAD@{172}: checkout: moving from master to start
+[33m1e9119d[m HEAD@{173}: checkout: moving from start to master
+[33m7c23f53[m HEAD@{174}: checkout: moving from master to start
+[33m1e9119d[m HEAD@{175}: commit: start
+[33m183b7db[m HEAD@{176}: reset: moving to 183b7db22d17ba53a353773f0c760884a810b87d
+[33m183b7db[m HEAD@{177}: reset: moving to 183b7db22d17ba53a353773f0c760884a810b87d
+[33m63e89f7[m HEAD@{178}: checkout: moving from start to master
+[33m7c23f53[m HEAD@{179}: commit: start
+[33m183b7db[m HEAD@{180}: commit: start
+[33m2fbbfb8[m HEAD@{181}: commit: c2
+[33m18b1d9a[m HEAD@{182}: commit: c2
+[33mfea2266[m HEAD@{183}: commit: c2
+[33md22d826[m HEAD@{184}: commit: c2
+[33m18d4fb2[m HEAD@{185}: commit: init
+[33m7595c74[m HEAD@{186}: commit: init
+[33m950129a[m HEAD@{187}: commit: init
+[33m5522813[m HEAD@{188}: commit: c3
+[33m0d54b5a[m HEAD@{189}: commit: c2
+[33mf2ca22a[m HEAD@{190}: commit: c2
+[33m34288dd[m HEAD@{191}: commit: c2
+[33mec9782e[m HEAD@{192}: commit: c2
+[33m63e89f7[m HEAD@{193}: checkout: moving from master to start
+[33m63e89f7[m HEAD@{194}: commit (initial): c1
