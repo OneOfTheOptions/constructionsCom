@@ -221,7 +221,7 @@ body{
       padding: 0 39px;
     }
     &-primary{
-      border-color: var(--color-primary);
+      border: 1px solid var(--color-primary);
       color: var(--color-primary);
     }
   }
