@@ -1,0 +1,50 @@
+mixin related-projects
+    section.related-projects
+        .container
+            .related-projects__top
+                h2.title.related-projects__title.
+                    Related projects
+                .slider-nav.related-projects__slider-nav
+                    button.btn-reset.slider-nav__btn.related-projects__prev.slider-btn
+                        svg
+                            use(xlink:href="#slider_leftArrow")
+                    button.btn-reset.slider-nav__btn.related-projects__next.slider-btn
+                        svg
+                            use(xlink:href="#slider_rightArrow")
+            .swiperRelatedProjects.portfolio-section__items
+                .swiper-wrapper
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/interiorDesign-page/related-projects-1.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Kids Bedroom With Decorations
+                                span.portfolio-item__descr.
+                                    Apartments & flats
+                                .portfolio-item__btn.btn.btn--stroke.
+                                    View Project
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/interiorDesign-page/related-projects-3.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Modern Double Bedroom
+                                span.portfolio-item__descr.
+                                    Apartments & flats
+                                .portfolio-item__btn.btn.btn--stroke.
+                                    View Project
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/interiorDesign-page/related-projects-1.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Scandinavian Style Interior
+                                span.portfolio-item__descr.
+                                    Private houses
+                                .portfolio-item__btn.btn.btn--stroke.
+                                    View Project
+            .related-projects-allWorks.subtitleSection
+                h3.subtitle.
+                    Explore all our works
+                a(href="").btn-reset.btn.btn--fill.
+                    View portfolio

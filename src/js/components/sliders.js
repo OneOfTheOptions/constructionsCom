@@ -1,6 +1,6 @@
 const bodyStyles = window.getComputedStyle(document.body);
 const gap = parseInt(bodyStyles.getPropertyValue('--grid-gap'));
-const sliderWidth = parseInt(bodyStyles.getPropertyValue('--slider-width'));
+const sliderWidth = parseInt(bodyStyles.getPropertyValue(`--slider-width`));
 
 const swiper = new Swiper('.swiper', {
     width: sliderWidth,
@@ -20,6 +20,17 @@ const swiperRecalls = new Swiper('.swiperRecalls', {
     navigation: {
         nextEl: '.recalls-section__next',
         prevEl: '.recalls-section__prev',
+    },
+});
+
+const swiperRelatedProjects = new Swiper('.swiperRelatedProjects', {
+    width: sliderWidth,
+    slidesPerView: 3,
+    spaceBetween: gap,
+    loop: true,
+    navigation: {
+        nextEl: '.related-projects__next',
+        prevEl: '.related-projects__prev',
     },
 });
 

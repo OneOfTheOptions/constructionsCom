@@ -1,5 +1,6 @@
-.portfolio-section{
+.related-projects{
   background-color: var(--color-white);
+  padding: 180px 0 100px;
 
   &__slider-nav{
     transform: translateX(8px) translateY(12px);
@@ -10,20 +11,21 @@
   }
 
   &__items{
-   margin: 0 -5px 0 -5px;
-   padding: 0 5px 80px 5px;
+    margin: 0 -5px 0 -5px;
+    padding: 0 5px 80px 5px;
 
     .swiper-wrapper{
       max-height: 440px;
     }
   }
 }
-.portfolio-section__top{
+.related-projects__top{
   display: flex;
   flex-direction: row;
   padding-bottom: 60px;
 }
-.swiper{
+.swiperRelatedProjects{
+  overflow: hidden;
 }
 
 .swiper-slide{
@@ -38,10 +40,10 @@
 
   border-radius: 4px;
   box-shadow:
-  0 80px 80px -20px rgba(154, 156, 165, 0.08),
-  0 30px 24px -10px rgba(154, 156, 165, 0.05),
-  0 12px 10px -6px rgba(154, 156, 165, 0.04),
-  0 4px 4px -4px rgba(30, 33, 44, 0.03);
+          0 80px 80px -20px rgba(154, 156, 165, 0.08),
+          0 30px 24px -10px rgba(154, 156, 165, 0.05),
+          0 12px 10px -6px rgba(154, 156, 165, 0.04),
+          0 4px 4px -4px rgba(30, 33, 44, 0.03);
   background: var(--color-white);
 
   &__content{
@@ -86,9 +88,5 @@
 
     color: var(--color-primary);
   }
-}
-
-.portfolio-allWorks{
-  padding-bottom: 120px;
 }
 
