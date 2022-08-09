@@ -37,10 +37,14 @@
 
     color: var(--color-storm);
   }
+
   &__services{
     background-image: url("../img/services-page/services_bg.png");
   }
   &__interiorDesign{
     background-image: url("../img/interiorDesign-page/interiorDesign_bg.png");
+  }
+  &__ourWork{
+    background-image: url("../img/ourWork-page/ourWork_bg.png");
   }
 }

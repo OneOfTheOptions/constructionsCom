@@ -18,33 +18,6 @@
   }
 }
 
-// навигация
-
-.nav{
-  &__list{
-    display: flex;
-    align-content: center;
-    min-width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: -111px;
-    padding-bottom: 1px;
-  }
-  &__item{
-    &:not(:last-child){
-      margin-right: 41px;
-    }
-  }
-  &__item-link{
-    font-family: $fontGeneral;
-    font-style: normal;
-    color: var(--color-grey);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 160%;
-  }
-}
-
 // контакты
 
 .header-contacts{
