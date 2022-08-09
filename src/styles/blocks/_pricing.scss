@@ -1,8 +1,12 @@
 .pricing{
+  position: relative;
   padding-top: 81px;
   background-color: #F4F5F7;
 
-  &__descr{
+  &__decorate{
+    position: absolute;
+    left: -10px;
+    top: 0;
   }
 }
 
@@ -106,7 +110,7 @@
 
       &:last-child{
         .table__col{
-        padding: 34px 0;
+        padding: 32px 0;
         }
       }
     }

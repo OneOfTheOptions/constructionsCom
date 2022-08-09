@@ -1,16 +1,24 @@
 .partners-section{
-  padding-top: 80px;
   background-color: #F4F5F7;
   margin-left: -4px;
   .title{
     padding-bottom: 60px;
+  }
+
+  &__interior-design{
+    padding-top: 121px;
+    padding-bottom: 120px;
+  }
+
+  &__index{
+    padding-top: 81px;
+    padding-bottom: 90px;
   }
 }
 .partners-list{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 90px;
   &__item{
     height: 64px;
     width: 120px;
