@@ -1,23 +1,98 @@
 .portfolio{
-
+  padding-bottom: 101px;
 }
 
 .portfolio-tabs-nav{
+  --gap: 20px;
   display: flex;
   align-items: center;
-  flex-direction: row;
+  justify-content: center;
+  max-width: 1230px;
+
+  transform: translateY(-59px);
+
+  margin-bottom: 61px;
+
   &__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc((100% - (var(--gap)*4))/5);
 
     &:not(:last-child){
-      margin-right: 20px;
+      margin-right: var(--gap);
     }
   }
+
+  &__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 4px;
+    padding: 32px 5px;
+    box-shadow: var(--main-shadows);
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+    &--active{
+      color: var(--color-white);
+      background-color: var(--color-primary);
+
+      .portfolio-tabs-nav__text{
+        color: var(--color-white);
+      }
+    }
+  }
+
+  &__icon{
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    object-fit: cover;
+
+    color: inherit;
+    fill: currentColor;
+  }
+
+  &__text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+
+    text-align: center;
+
+    color: #9A9CA5;
+  }
+
 }
 
 .portfolio-tabs{
   &__item{
     grid-column: 4 span;
   }
+}
 
+.portfolio-more{
+  margin-top: 60px;
+  display: inline-flex;
+  align-items: center;
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--color-grey);
+
+  svg{
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    color:inherit;
+    fill: currentColor;
+    object-fit: cover;
+  }
 }

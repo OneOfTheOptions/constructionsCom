@@ -5,7 +5,7 @@ mixin portfolio
                 Portfolio
             ul.portfolio-tabs-nav.list-reset
                 li.portfolio-tabs-nav__item
-                    button.btn-reset.portfolio-tabs-nav__btn
+                    button.btn-reset.portfolio-tabs-nav__btn.portfolio-tabs-nav__btn--active
                         svg(aria-hidden="true").portfolio-tabs-nav__icon
                             use(xlink:href="#portfolio_AllProjects")
                         span.portfolio-tabs-nav__text.
@@ -125,4 +125,8 @@ mixin portfolio
                                 Business Centers
                             .portfolio-item__btn.btn.btn--stroke.
                                 View Project
-
+            .centered
+                button.btn-reset.portfolio-more
+                    svg(aria-hidden="true")
+                        use(xlink:href="#portfolio_loadmore")
+                    |Load more
