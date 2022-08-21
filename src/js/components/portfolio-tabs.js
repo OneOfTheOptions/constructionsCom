@@ -46,7 +46,7 @@ if (portfolioTabsNav) {
             isLoadMoreNeeded(document.querySelectorAll(`[data-target="${path}"]`));
             hideMoreItems(document.querySelectorAll('.portfolio-tabs__item--visible'));
 
-            if (path == 'all') {
+            if (path === 'all') {
 
                 portfolioTabsItems.forEach(el => {
                     el.classList.add('portfolio-tabs__item--visible');
@@ -67,7 +67,7 @@ if (portfolioTabsNav) {
         const path = document.querySelector('.portfolio-tabs-nav__btn--active').dataset.path;
         console.log(path)
 
-        if (path == 'all') {
+        if (path === 'all') {
             portfolioTabsItems.forEach(el => {
                 el.classList.add('portfolio-tabs__item--visible-more');
                 loadMore.style.display = 'none';
