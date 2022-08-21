@@ -78,15 +78,16 @@
 
 .portfolio-tabs{
   &__item{
+    display: none;
     grid-column: 4 span;
 
     &--visible{
-      display: block !important;
+      display: block
     }
 
-    /*&--hidden{
-      display: none;
-    }*/
+    &--visible-more{
+      display: block !important;
+    }
   }
 }
 
