@@ -25,6 +25,20 @@
 
     color: var(--color-ebony);
 
+    &--project1{
+      max-width: 800px;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 120%;
+
+      letter-spacing: 1px;
+
+      text-transform: initial;
+    }
+
+    &--mb{
+      margin-bottom: 60px;
+    }
   }
   
   &__descr{
@@ -46,5 +60,10 @@
   }
   &__ourWork{
     background-image: url("../img/ourWork-page/ourWork_bg.png");
+  }
+  &__project1{
+    background-image: url("../img/project1-page/project1_bg.png");
+    background-position: right -6px top 48px;
+    background-color: var(--color-white);
   }
 }

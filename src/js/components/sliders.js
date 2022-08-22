@@ -34,4 +34,26 @@ const swiperRelatedProjects = new Swiper('.swiperRelatedProjects', {
     },
 });
 
+//work projects
+ const projectsImages = document.querySelector('.projects-images-slider');
+ if(projectsImages){
+    const project1_nav = new Swiper(".projects-images-nav", {
+        spaceBetween: 18,
+        slidesPerView: 10,
+        freeMode: true,
+        watchSlidesProgress: true,
+    });
+    const project1 = new Swiper(projectsImages, {
+        spaceBetween: 20,
+        slidesPerView: 1,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: project1_nav,
+        },
+    });
+}
+
 
