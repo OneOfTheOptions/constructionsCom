@@ -1,0 +1,44 @@
+mixin similar-projects
+    section.similar-projects
+        .container
+            .similar-projects__top
+                h2.title.similar-projects__title.
+                    Similar projects
+                .slider-nav.similar-projects__slider-nav
+                    button.btn-reset.slider-nav__btn.similar-projects__prev.slider-btn
+                        svg
+                            use(xlink:href="#slider_leftArrow")
+                    button.btn-reset.slider-nav__btn.similar-projects__next.slider-btn
+                        svg
+                            use(xlink:href="#slider_rightArrow")
+            .swiperSimilarProjects.portfolio-section__items
+                .swiper-wrapper
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/project1-page/similarProject-slide1.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Luxury Beach House
+                                span.portfolio-item__descr.
+                                    Private Houses
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/project1-page/similarProject-slide2.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Brown and Gray Painted House
+                                span.portfolio-item__descr.
+                                    Private Houses
+                    .swiper-slide
+                        a(href="#").portfolio-item
+                            img(src="../../img/project1-page/similarProject-slide3.jpg" alt="Portfolio cover").portfolio-item__image
+                            .portfolio-item__content
+                                h3.portfolio-item__title.
+                                    Scandinavian Style Interior
+                                span.portfolio-item__descr.
+                                    Private houses
+            .similar-projects-allWorks.subtitleSection
+                h3.subtitle.
+                    Explore all our works
+                a(href="").btn-reset.btn.btn--fill.
+                    View portfolio

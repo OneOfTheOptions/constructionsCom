@@ -1,0 +1,55 @@
+.decisions{
+  padding-top: 80px;
+  padding-bottom: 0;
+  background-color: var(--color-athens);
+  margin-bottom: 180px;
+
+  &__title{
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+
+    color: var(--color-ebony);
+  }
+
+  &__left{
+    grid-column: 5 span;
+
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 5;
+  }
+
+  &__right{
+    grid-column: 7 span;
+    padding: 0 0 0 102px;
+    overflow: hidden;
+  }
+
+  &__item{
+    position: relative;
+    padding-left: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-grey);
+
+    &::before{
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 20px;
+      height: 20px;
+      background-image: url("../img/project1-page/decisions-icon.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:not(:last-child){
+      margin-bottom: 21px;
+    }
+  }
+}

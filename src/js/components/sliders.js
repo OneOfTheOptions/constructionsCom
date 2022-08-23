@@ -38,7 +38,7 @@ const swiperRelatedProjects = new Swiper('.swiperRelatedProjects', {
  const projectsImages = document.querySelector('.projects-images-slider');
  if(projectsImages){
     const project1_nav = new Swiper(".projects-images-nav", {
-        spaceBetween: 18,
+        spaceBetween: 20,
         slidesPerView: 10,
         freeMode: true,
         watchSlidesProgress: true,
@@ -47,13 +47,25 @@ const swiperRelatedProjects = new Swiper('.swiperRelatedProjects', {
         spaceBetween: 20,
         slidesPerView: 1,
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".projects-images__next",
+            prevEl: ".projects-images__prev",
         },
         thumbs: {
             swiper: project1_nav,
         },
     });
 }
+
+ //similarProjects
+const swiperSimilarProjects = new Swiper('.swiperSimilarProjects', {
+    width: sliderWidth,
+    slidesPerView: 3,
+    spaceBetween: gap,
+    loop: true,
+    navigation: {
+        nextEl: '.similar-projects__next',
+        prevEl: '.similar-projects__prev',
+    },
+});
 
 

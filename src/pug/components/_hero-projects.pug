@@ -15,6 +15,13 @@ mixin hero-projects
                 Modern Cottage
             .projects-images.projects-images__project1
                 .projects-images-slider
+                    .slider-nav.projects-images__slider-nav
+                        button.btn-reset.slider-nav__btn.projects-images__prev.slider-btn
+                            svg
+                                use(xlink:href="#slider_leftArrow")
+                        button.btn-reset.slider-nav__btn.projects-images__next.slider-btn
+                            svg
+                                use(xlink:href="#slider_rightArrow")
                     .swiper-wrapper
                         .swiper-slide
                             img(src="../../img/project1-page/project1-slide1.jpg" alt="project1-slide1")
