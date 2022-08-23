@@ -1,0 +1,52 @@
+.achievements{
+  padding: 121px 0 120px;
+
+  &__item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 260px;
+
+    padding-top: 69px;
+
+    grid-column: 3 span;
+
+    background-position: top center;
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+
+    &--icon1{
+      background-image: url("../img/aboutUs-page/achievements-icon1.svg");
+    }
+
+    &--icon2{
+      background-image: url("../img/aboutUs-page/achievements-icon2.svg");
+    }
+
+    &--icon3{
+      background-image: url("../img/aboutUs-page/achievements-icon3.svg");
+    }
+
+    &--icon4{
+      background-image: url("../img/aboutUs-page/achievements-icon4.svg");
+    }
+  }
+
+  &__text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: var(--color-ebony);
+  }
+
+  &__value{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 8px;
+
+    color: var(--color-primary);
+  }
+}
