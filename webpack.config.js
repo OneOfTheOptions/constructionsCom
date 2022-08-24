@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 let mode = 'development'
 if (process.env.NODE_ENV === 'production') {
@@ -32,6 +33,11 @@ module.exports = {
         splitChunks: {
             chunks: 'all',
         },
+        minimize: true,
+        minimizer: [new TerserPlugin({
+            parallel: true,
+        })
+        ],
     },
     plugins: [
         new MiniCssExtractPlugin({
@@ -104,9 +110,10 @@ module.exports = {
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
-                    // options: {
-                    //     presets: ['@babel/preset-env']
-                    // }
+                     options: {
+                         presets: ['@babel/preset-env'],
+                         cacheDirectory: true,
+                     }
                 }
             },
         ]
