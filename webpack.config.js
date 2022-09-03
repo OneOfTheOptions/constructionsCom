@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
+const path = require('path');
 
 let mode = 'development'
 if (process.env.NODE_ENV === 'production') {
@@ -108,13 +109,8 @@ module.exports = {
             {
                 test: /\.m?js$/,
                 exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                     options: {
-                         presets: ['@babel/preset-env'],
-                         cacheDirectory: true,
-                     }
-                }
+                use: ['cache-loader', 'babel-loader'],
+                include:  path.resolve(__dirname, 'node_modules/.cache/cache-loader'),
             },
         ]
     },
