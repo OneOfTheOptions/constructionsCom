@@ -12,7 +12,7 @@ module.exports = {
     mode: mode,
     entry: {
         scripts: './src/index.js',
-        //components: './src/components.js',
+        components: './src/components.js',
     },
     output: {
         filename: '[name].[contenthash].js',
