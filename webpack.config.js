@@ -11,6 +11,9 @@ console.log(mode + ' mode')
 
 module.exports = {
     mode: mode,
+    cache: {
+        type: 'filesystem',
+    },
     entry: {
         scripts: './src/index.js',
         components: './src/components.js',
@@ -26,8 +29,9 @@ module.exports = {
         open: true,
         static: {
             directory: './src',
-            watch: true
+            watch: true,
         },
+        compress: true,
     },
     devtool: 'source-map',
     optimization: {
@@ -47,22 +51,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: "index.html",
             template: "./src/pug/pages/index.pug",
-        }),
-        new HtmlWebpackPlugin({
-            filename: "pages/services.html",
-            template: "./src/pug/pages/services.pug",
-        }),
-        new HtmlWebpackPlugin({
-            filename: "pages/interior-design.html",
-            template: "./src/pug/pages/interior-design.pug",
-        }),
-        new HtmlWebpackPlugin({
-            filename: "pages/our-work.html",
-            template: "./src/pug/pages/our-work.pug",
-        }),
-        new HtmlWebpackPlugin({
-            filename: "pages/project1.html",
-            template: "./src/pug/pages/project1.pug",
         }),
         new HtmlWebpackPlugin({
             filename: "pages/about-us.html",
