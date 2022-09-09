@@ -1,8 +1,12 @@
 .achievements{
   padding: 121px 0 120px;
+  background-image: url("../img/aboutUs-page/employee-bg.jpg");
+  background-position: right -7px bottom -528px;
+  background-repeat: no-repeat;
+  background-color: var(--color-white);
 
   &__list{
-    margin-bottom: 120px;
+    margin-bottom: 239px;
   }
 
   &__item{
@@ -56,32 +60,52 @@
 }
 
 .employee{
-  padding-top: 80px;
   display: flex;
   align-items: flex-start;
 
   &__image{
-    z-index: 2;
 
   }
 
   &__info{
     position: relative;
-    padding: 80px 105px 77px;
-    left: -30px;
     z-index: 10;
+    top: -120px;
+    left: -30px;
     flex-shrink: 0;
     border-radius: 4px;
-    max-width: 735px;
-    box-shadow: var(--main-shadows);
+    padding: 80px 90px 28px;
+    width: 735px;
     background: var(--color-white);
+    box-shadow: var(--main-shadows);
   }
 }
 
 .quote{
+  margin: 0;
+
   &__content{
-    p {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 15px;
+
+    &::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -13px;
+      width: 28px;
+      height: 20px;
+      background-image: url("../img/aboutUs-page/employee-braces.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    p{
       margin: 0;
+      font-style: normal;
       font-weight: 700;
       font-size: 20px;
       line-height: 150%;
@@ -89,25 +113,34 @@
       color: var(--color-ebony);
 
       &:not(:last-child){
-        margin-bottom: 20px;
+        margin-bottom: 30px;
       }
     }
   }
 
   &__footer{
+    padding: 50px 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: var(--color-storm);
+
+    background-image: url("../img/aboutUs-page/employee-signature.svg");
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    background-size: 100px 68px;
+  }
+
+  &__author{
+    display: block;
+    margin-bottom: 6px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
 
     color: var(--color-ebony);
-  }
-
-  &__author{
-    font-style: normal;
-    font-size: 14px;
-    line-height: 150%;
-
-    color: var(--color-storm);
   }
 }
