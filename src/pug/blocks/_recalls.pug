@@ -9,7 +9,7 @@ mixin recalls
                         .swiper-slide
                             .recalls-item
                                 .recalls-item__img
-                                    img(src="../../img/recalls_profileImg.jpg" alt="eachTestimonials").recalls-item__image
+                                    img(src=require("../../img/recalls_profileImg.jpg") alt="eachTestimonials").recalls-item__image
                                 p.recalls-item__descr.
                                     Ipsum aute sunt aliquip aute et occaecat.
                                     Anim minim do cillum eiusmod enim. Consectetur
@@ -22,7 +22,7 @@ mixin recalls
                         .swiper-slide
                             .recalls-item
                                 .recalls-item__img
-                                    img(src="../../img/recalls_profileImg.jpg" alt="eachTestimonials").recalls-item__image
+                                    img(src=require("../../img/recalls_profileImg.jpg") alt="eachTestimonials").recalls-item__image
                                 p.recalls-item__descr.
                                     Ipsum aute sunt aliquip aute et occaecat.
                                     Anim minim do cillum eiusmod enim. Consectetur
@@ -40,4 +40,4 @@ mixin recalls
                             svg
                                 use(xlink:href="#slider_rightArrow")
             .recalls__image
-                img(src="../../img/recalls_image.jpg" aria-hidden="true")
+                img(src=require("../../img/recalls_image.jpg") aria-hidden="true")

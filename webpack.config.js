@@ -12,7 +12,7 @@ console.log(mode + ' mode')
 module.exports = {
     mode: mode,
     entry: {
-        scripts: './src/index.js',
+        index: './src/index.js',
         components: './src/components.js',
     },
     output: {
