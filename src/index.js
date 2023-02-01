@@ -1,6 +1,5 @@
 // import './styles/index.scss'
 
-import './js/vendors/swiper.min'
 import './js/components/sliders.js'
 import './js/components/progress.js'
 //import './js/components/portfolio-tabs.js'
